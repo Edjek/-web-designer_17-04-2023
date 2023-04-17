@@ -1,41 +1,37 @@
-/* CSS Cascading Style Sheet */
+/* CSS Cascading style sheet */
 /* Je suis un commentaire en CSS */
 
-body {
-    color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: pink; */
-}
 /* On peut selectionner les noms de balises HTML */
 /* Consequences tous les elements de ce type seront modifiés */
 h1 {
+    color: orange;
+}
+
+p {
     color: red;
 }
 
-h1 {
+/* On peut selectionner des balises spécifiques grâce aux class en utilisant le . */
+/* Conséquence tous les elements qui ont cette class seront modifiés */
+.toto {
+    color: blue;
+}
+
+/* Je peux selectionner plusieurs elements en meme temps en les séparant par une virgule */
+h3,
+.text-green {
     color: green;
+}
+
+/* On peut selectionner des balises spécifiques par selecteur descendant */
+/* Ici les h2 qui se trouveraient dans une div qui a la class heading */
+.section p {
+    color: orange;
 }
 
 /* On peut selectionner une balise spécifique grâce à son id en utilisant un # */
 /* Conséquence l'element qui a cet id sera modifié */
 /* On préfère laisser les ID au Javascript sauf exception */
-#paragraphe {
-    color: orange;
-}
-
-/* On peut selectionner des balises spécifiques grâce aux class en utilisant le . */
-/* Conséquence tous les elements qui ont cette class seront modifiés */
-.paragraphe {
-     color: blue;
-}
-
-/* Je peux selectionner plusieurs elements en meme temps en les séparant par une virgule */
-.paragraphe, h3{
-     color: pink;
-}
-
-/* On peut selectionner des balises spécifiques par selecteur descendant */
-/* Ici les h2 qui se trouveraient dans une div qui a la class heading */
-.txt-red p {
-    color: #777;
+#title {
+    color: pink;
 }
