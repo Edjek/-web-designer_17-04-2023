@@ -1,0 +1,18 @@
+<!-- Pour partager du CSS -->
+https://codepen.io/dihcar-cesar
+
+<!-- Les polices de caractère -->
+https://fonts.google.com/
+
+<!-- Banque d'image -->
+https://www.pexels.com/fr-fr/
+https://unsplash.com/fr
+https://pixabay.com/fr/
+
+<!-- Pour des couleurs assortis en CSS -->
+https://colorhunt.co/
+https://flatuicolors.com/
+https://coolors.co/
+
+<!-- Pour vous exercer aux flexbox -->
+https://flexboxfroggy.com/#fr

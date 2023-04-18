@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Reset */
 
@@ -20,16 +20,38 @@ a {
 }
 
 /* HERO SECTION */
-.hero{
+.hero {
     background-color: pink;
     min-height: 350px;
     width: 85%;
     margin: 50px auto;
-    background-image: url(../img/business-1920x1280.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url(../img/business-1920x1280.jpg);
     background-size: cover;
     background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+.hero h1 {
+    font-size: 30px;
+    text-align: center;
+}
 
+.hero span {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.btn {
+    color: #fff;
+    background-color: red;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
 /* ABOUT-US */
@@ -57,4 +79,50 @@ a {
 
 .about-us-link:hover {
     color: pink;
+}
+
+/* IMG RESPONSIVE */
+.img-responsive {
+    background-color: pink;
+    width: 60%;
+    margin: 50px auto;
+    min-height: 500px;
+}
+
+.img-responsive img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right center;
+}
+
+.flex p,
+.flex a {
+    border: 1px solid #333;
+    width: 300px;
+    height: 300px;
+}
+
+.flex {
+    /* La propriete { display: flex; } donne un pouvoir sur les elements enfants directs  */
+    display: flex;
+
+    /* La propriete { flex-direction: ; } permet de choisir la direction de l'axe principale */
+    /* flex-direction: row; */
+    /* flex-direction:  column | row  */
+
+    /* La propriete { justify-content: ; } permet d'aligner dans le sens principal */
+    justify-content: center;
+    /* flex-start | center | flex-end | space-between | space-around */
+
+    /* La propriete { align-items: ; } permet d'aligner dans l'axe secondaire */
+    align-items: center;
+    /* flex-start | center | flex-end */
+
+    /* gap permet de mettre de l'espace entre les enfants direct */
+    gap: 20px;
+
+    /* La propriete { flex-wrap: wrap; } fait retourner à la ligne les elements enfants s'ils n'ont plus de place */
+    flex-wrap: wrap;
+    /* wrap | nowrap */
 }
