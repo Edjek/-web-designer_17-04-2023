@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-size: 17px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    background-color: #0a2b19;
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+header a{
+    color: #fff;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.hero {
+    background-color: pink;
+}
