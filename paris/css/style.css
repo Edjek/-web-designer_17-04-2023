@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    min-height: 2000px;
     color: #333;
     font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {
@@ -14,6 +22,23 @@ a {
     text-decoration: none;
 }
 
+/* COMPONENTS */
+.btn{
+    background-color: #0a2b19 ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.up {
+    background-color: red;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* HEADER */
 header {
     background-color: #0a2b19;
     min-height: 65px;
@@ -23,14 +48,41 @@ header {
     padding: 0 60px;
 }
 
-header a{
+header a {
     color: #fff;
 }
 
+nav {
+    display: flex;
+    gap: 15px;
+}
 .logo {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 650px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(../img/eiffel-tower-1920x1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
     font-size: 40px;
 }
 
 .hero {
-    background-color: pink;
+    font-size: 20px;
 }
+
