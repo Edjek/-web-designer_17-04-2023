@@ -1,0 +1,18 @@
+#212529 noir du site
+#eeebd0  beige du site
+#3d3a4b cards
+#c33838 boutton rouge
+#c70a0a rouge de la section
+
+Police par defaut du site
+Montserrat
+
+Police des titres
+Playfair Display
+
+Taille des polices sont responsive donc vous pouvez mettre ce que vous voulez
+
+A titre indicatif
+h1 ~ 60px
+h2 ~ 40px - 60px
+h3 ~ 30px
