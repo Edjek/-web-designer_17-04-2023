@@ -1,8 +1,10 @@
-#212529 noir du site
-#3d3a4b bleu du site
-#eeebd0 beige du site
-#3d3a4b cards
+#eeebd0 Couleur par defaut du body | beige du site
+#3d3a4b Couleur du texte par defaut | reutilisé sur les cards de la deuxieme section ou les boutons beige
+#212529 Couleur du menu, section noir du site (ex: hero section)
+
+
 #c33838 bouton rouge
+#a63030 survole bouton rouge
 #c70a0a rouge de la section best Food in town
 
 Police par defaut du site
