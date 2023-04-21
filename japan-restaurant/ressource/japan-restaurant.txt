@@ -1,16 +1,15 @@
 #212529 noir du site
-#eeebd0  beige du site
+#3d3a4b bleu du site
+#eeebd0 beige du site
 #3d3a4b cards
-#c33838 boutton rouge
-#c70a0a rouge de la section
+#c33838 bouton rouge
+#c70a0a rouge de la section best Food in town
 
 Police par defaut du site
-Montserrat
+	Montserrat
 
 Police des titres
-Playfair Display
-
-Taille des polices sont responsive donc vous pouvez mettre ce que vous voulez
+	Playfair Display
 
 A titre indicatif
 h1 ~ 60px
